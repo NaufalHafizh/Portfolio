@@ -1,0 +1,31 @@
+body{
+
+    background-color: #C5DFFF;
+}
+
+#findme{
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #FFCFD9;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    
+}
+  
+section {
+    padding-top: 5rem;
+}
+
+#about{
+
+    padding-top: 6rem;
+
+}
+
+#portofolio{
+
+    padding-top: 6rem;
+}
