@@ -23,6 +23,7 @@
     background: #343A40; 
   }
   #skills h2 {
+    margin-bottom: 2rem;
     font-weight: 700;
   }
   .main-skills {
@@ -33,22 +34,22 @@
     justify-content: center;
     border-radius: 12px;
     transition: all .6s ease;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     background: #343A40;
     margin-bottom: 5rem;
   }
   .skill1 {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     position: relative;
     z-index: 1;
   }
   .skill1::before {
     transition: 0.5s all ease;
     position: absolute;
-    top: 100%;
+    top: 0;
     left:  0;
     right: 0;
-    bottom: 0;
+    bottom: 100%;
     opacity: 0;
     content: '';
     background: orange;
@@ -57,67 +58,68 @@
   .skill1:hover::before {
     opacity: 1;
     transition: 0.5s all ease;
-    top: 0;
+    bottom: 0;
     z-index: -1;
   }
   .skill2 {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     position: relative;
     z-index: 1;
   }
   .skill2::before {
     transition: 0.8s all ease;
     position: absolute;
-    top: 100%;
+    top: 0;
     left:  0;
     right: 0;
-    bottom: 0;
+    bottom: 100%;
     opacity: 0;
     content: '';
-    background: lightblue;
+    background: #35A7DB;
     border-radius: 12px;
   }
   .skill2:hover::before {
     opacity: 1;
     transition: 0.8s all ease;
-    top: 0;
+    bottom: 0;
     z-index: -1;
   }
   .skill3 {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     position: relative;
     z-index: 1;
   }
   .skill3::before {
     transition: 0.8s all ease;
     position: absolute;
-    top: 100%;
+    top: 0;
     left:  0;
     right: 0;
-    bottom: 0;
+    bottom: 100%;
     opacity: 0;
     content: '';
-    background: purple;
+    background: #8993BE;
     border-radius: 12px;
   }
   .skill3:hover::before {
     opacity: 1;
     transition: 0.8s all ease;
-    top: 0;
+    bottom: 0;
     z-index: -1;
   }
+
   .skill4 {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     position: relative;
     z-index: 1;
   }  
   .skill4::before {
     transition: 0.8s all ease;
     position: absolute;
-    top: 100%;
+    top: 0;
     left:  0;
     right: 0;
-    bottom: 0;
+    bottom: 100%;
     opacity: 0;
     content: '';
     background: yellow;
@@ -126,7 +128,79 @@
   .skill4:hover::before {
     opacity: 1;
     transition: 0.8s all ease;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .skill5 {
+    /* border: 2px solid white; */
+    position: relative;
+    z-index: 1;
+  }  
+  .skill5::before {
+    transition: 0.8s all ease;
+    position: absolute;
     top: 0;
+    left:  0;
+    right: 0;
+    bottom: 100%;
+    opacity: 0;
+    content: '';
+    background: blue;
+    border-radius: 12px;
+  }
+  .skill5:hover::before {
+    opacity: 1;
+    transition: 0.8s all ease;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .skill6 {
+    /* border: 2px solid white; */
+    position: relative;
+    z-index: 1;
+  }  
+  .skill6::before {
+    transition: 0.8s all ease;
+    position: absolute;
+    top: 0;
+    left:  0;
+    right: 0;
+    bottom: 100%;
+    opacity: 0;
+    content: '';
+    background: #F68219;
+    border-radius: 12px;
+  }
+  .skill6:hover::before {
+    opacity: 1;
+    transition: 0.8s all ease;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .skill7 {
+    /* border: 2px solid white; */
+    position: relative;
+    z-index: 1;
+  }  
+  .skill7::before {
+    transition: 0.8s all ease;
+    position: absolute;
+    top: 0;
+    left:  0;
+    right: 0;
+    bottom: 100%;
+    opacity: 0;
+    content: '';
+    background: #3670A0;
+    border-radius: 12px;
+  }
+  .skill7:hover::before {
+    opacity: 1;
+    transition: 0.8s all ease;
+    bottom: 0;
     z-index: -1;
   }
   .main-skills .card-skills h6 {
@@ -163,4 +237,11 @@
 #portofolio h2 {
 
     font-weight: 700;
+}
+
+#findme a:hover {
+
+  border: none;
+  background-image: linear-gradient(to right top, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
+  border-radius: 12px;
 }
