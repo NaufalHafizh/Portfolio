@@ -6,7 +6,8 @@
 }
 
 #skills {
-    padding-top: 10rem;
+    padding-top: 15rem;
+    padding-bottom: 10rem;
   }
   .bubbleend {
     position: relative;
@@ -267,12 +268,12 @@ ul.timeline > li:before {
     font-weight: 700;
 }
 
-#findme a:hover {
+/* #findme a:hover {
 
   border: none;
   background-image: linear-gradient(to right top, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
   border-radius: 12px;
-}
+} */
 
 .arrow {
   text-align: center;
