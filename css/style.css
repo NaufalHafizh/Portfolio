@@ -6,7 +6,7 @@
 }
 
 #skills {
-    padding-top: 15rem;
+    padding-top: 10rem;
     padding-bottom: 10rem;
   }
   .bubbleend {
@@ -255,17 +255,6 @@ ul.timeline > li:before {
 
     padding-top: 10rem;
 
-}
-
-#portofolio{
-
-    padding-top: 6rem;
-    padding-bottom: 5rem;
-}
-
-#portofolio h2 {
-
-    font-weight: 700;
 }
 
 /* #findme a:hover {
