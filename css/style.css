@@ -6,21 +6,14 @@
 }
 
 #skills {
-  padding-top: 5em;
+  padding-top: 6em;
   padding-bottom: 5rem;
-}
-
-.bubbleend {
-  position: relative;
-  left: 60%;
-  top: 5%;
-  transform: rotate(50deg);
 }
 
 #skills h2 {
   margin-bottom: 2rem;
-  font-size: 25px;
   font-weight: 700;
+  color: #41E6CA;
 }
 
 .main-skills {
@@ -218,6 +211,113 @@
   z-index: -1;
 }
 
+/* toool */
+.tool1 {
+  /* border: 2px solid white; */
+  position: relative;
+  z-index: 1;
+}
+
+.tool1::before {
+  transition: 0.8s all ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  opacity: 0;
+  content: '';
+  background: #01B4DD;
+  border-radius: 12px;
+}
+
+.tool1:hover::before {
+  opacity: 1;
+  transition: 0.8s all ease;
+  bottom: 0;
+  z-index: -1;
+}
+
+.tool2 {
+  /* border: 2px solid white; */
+  position: relative;
+  z-index: 1;
+}
+
+.tool2::before {
+  transition: 0.8s all ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  opacity: 0;
+  content: '';
+  background: #EA77FF;
+  border-radius: 12px;
+}
+
+.tool2:hover::before {
+  opacity: 1;
+  transition: 0.8s all ease;
+  bottom: 0;
+  z-index: -1;
+}
+
+.tool3 {
+  /* border: 2px solid white; */
+  position: relative;
+  z-index: 1;
+}
+
+.tool3::before {
+  transition: 0.8s all ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  opacity: 0;
+  content: '';
+  background: #D4A5FF;
+  border-radius: 12px;
+}
+
+.tool3:hover::before {
+  opacity: 1;
+  transition: 0.8s all ease;
+  bottom: 0;
+  z-index: -1;
+}
+
+.tool4 {
+  /* border: 2px solid white; */
+  position: relative;
+  z-index: 1;
+}
+
+.tool4::before {
+  transition: 0.8s all ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  opacity: 0;
+  content: '';
+  background: #0179CB;
+  border-radius: 12px;
+}
+
+.tool4:hover::before {
+  opacity: 1;
+  transition: 0.8s all ease;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* endtool */
+
 .main-skills .card-skills h6 {
   margin-top: 1rem;
   font-weight: bold;
@@ -280,9 +380,27 @@ ul.timeline>li:before {
 
 #about {
 
-  padding-top: 8rem;
-  padding-bottom: 9rem;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
 
+}
+
+#experience {
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#experience h1 {
+
+  padding-bottom: 2rem;
+  color: #41E6CA;
+}
+
+#contact {
+
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 /* #findme a:hover {
