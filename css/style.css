@@ -452,15 +452,53 @@ ul.timeline>li:before {
 
 
 /* mobile responsive  */
-@media(min-width :321px) and (max-width : 425px) {
+@media(min-width :280px) and (max-width : 545px) {
 
   #skills {
 
-    width: 70px;
-    height: 300px;
-    border: 1px solid #c3c3c3;
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .skill1,
+  .skill2,
+  .skill3,
+  .skill4,
+  .skill5,
+  .skill6,
+  .skill7,
+  .tool1,
+  .tool2,
+  .tool3,
+  .tool4 {
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .carousel-item {
+
+    width: 100%;
+  }
+}
+
+@media(min-width :768px) and (max-width : 1024px) {
+
+  .skill1,
+  .skill2,
+  .skill3,
+  .skill4,
+  .skill5,
+  .skill6,
+  .skill7,
+  .tool1,
+  .tool2,
+  .tool3,
+  .tool4 {
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: auto;
   }
 }
