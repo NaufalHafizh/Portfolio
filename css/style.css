@@ -439,3 +439,17 @@ ul.timeline>li:before {
     transform: translateY(-15px);
   }
 }
+
+/* mobile responsive  */
+@media(min-width :321px) and (max-width : 425px) {
+
+  #skills {
+
+    width: 70px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+}
