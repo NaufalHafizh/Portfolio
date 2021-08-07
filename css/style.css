@@ -456,8 +456,6 @@ ul.timeline>li:before {
 
   #skills {
 
-    display: flex;
-    margin: 0 auto;
     text-align: center;
   }
 
