@@ -450,6 +450,21 @@ ul.timeline>li:before {
   width: 12px;
 }
 
+.parallax {
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+  background-color: #343A40;
+  border-radius: 5px;
+}
+
 
 /* mobile responsive  */
 @media(min-width :280px) and (max-width : 545px) {
@@ -498,5 +513,12 @@ ul.timeline>li:before {
     margin: 0 auto;
     margin-bottom: 20px;
     width: auto;
+  }
+
+  #Namaabot .display-2 {
+
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.2;
   }
 }
