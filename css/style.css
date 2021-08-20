@@ -6,8 +6,8 @@
 }
 
 #skills {
-  padding-top: 6em;
-  padding-bottom: 5rem;
+  padding-top: 10em;
+  padding-bottom: 10rem;
 }
 
 #skills h2 {
@@ -148,7 +148,7 @@
   bottom: 100%;
   opacity: 0;
   content: '';
-  background: blue;
+  background: #513A75;
   border-radius: 12px;
 }
 
@@ -174,7 +174,7 @@
   bottom: 100%;
   opacity: 0;
   content: '';
-  background: #F68219;
+  background: #FF2F21;
   border-radius: 12px;
 }
 
@@ -387,8 +387,8 @@ ul.timeline>li:before {
 
 #experience {
 
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 #experience h1 {
