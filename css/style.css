@@ -1,3 +1,9 @@
+/* Ijin Dulu kawan kalo mau copas */
+
+html {
+  scroll-behavior: smooth;
+}
+
 #findme {
 
   padding-top: 1rem;
@@ -14,6 +20,29 @@
   margin-bottom: 2rem;
   font-weight: 700;
   color: #41E6CA;
+}
+
+.nav-link {
+  font-weight: bold;
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #41E6CA;
+  transition: 0.6s;
+  width: 0;
+}
+
+.nav-link.active::after,
+.nav-link:hover::after {
+  color: #ffff;
+  width: 100%;
 }
 
 .main-skills {
