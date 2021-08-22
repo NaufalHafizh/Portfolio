@@ -473,14 +473,6 @@ ul.timeline>li:before {
   width: 12px;
 }
 
-.parallax {
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
 
@@ -490,6 +482,11 @@ ul.timeline>li:before {
 
 .mail:hover {
   background-color: #41E6CA;
+}
+
+#row-tool {
+
+  margin-left: 30px;
 }
 
 /* mobile responsive  */
@@ -520,8 +517,14 @@ ul.timeline>li:before {
 
     width: 100%;
   }
+
+  #row-tool {
+
+    margin-left: 0px;
+  }
 }
 
+/* mobile responsive  Relative */
 @media(min-width :768px) and (max-width : 1024px) {
 
   .skill1,
@@ -546,5 +549,10 @@ ul.timeline>li:before {
     font-size: 12px;
     font-weight: 300;
     line-height: 1.2;
+  }
+
+  #row-tool {
+
+    margin-left: 0px;
   }
 }
