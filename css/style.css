@@ -4,13 +4,6 @@ html {
   scroll-behavior: smooth;
 }
 
-#findme {
-
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-
-}
-
 #skills {
   padding-top: 10em;
   padding-bottom: 10rem;
@@ -23,7 +16,6 @@ html {
 }
 
 .nav-link {
-  font-weight: bold;
   position: relative;
 }
 
@@ -39,9 +31,10 @@ html {
   width: 0;
 }
 
+
 .nav-link.active::after,
 .nav-link:hover::after {
-  color: #ffff;
+  background-color: #41E6CA;
   width: 100%;
 }
 
@@ -409,8 +402,8 @@ ul.timeline>li:before {
 
 #about {
 
-  padding-top: 4rem;
-  padding-bottom: 5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 
 }
 
@@ -494,6 +487,9 @@ ul.timeline>li:before {
   border-radius: 5px;
 }
 
+.mail:hover {
+  background-color: #41E6CA;
+}
 
 /* mobile responsive  */
 @media(min-width :280px) and (max-width : 545px) {
