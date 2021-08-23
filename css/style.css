@@ -500,12 +500,14 @@ ul.timeline>li:before {
 #certificates-card {
 
   background-color: #2D3541;
+  border-radius: 15px;
   padding-bottom: 6rem;
   padding-top: 5rem;
 }
 
 #about-card {
 
+  border-radius: 15px;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
@@ -520,6 +522,7 @@ ul.timeline>li:before {
 
   padding-top: 5rem;
   padding-bottom: 5rem;
+
 }
 
 .color-certificates {
