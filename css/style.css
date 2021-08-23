@@ -6,7 +6,7 @@ html {
 
 #skills {
   padding-top: 11em;
-  padding-bottom: 11rem;
+  padding-bottom: 3em;
 }
 
 #skills h2 {
@@ -401,25 +401,6 @@ ul.timeline>li:before {
   padding-bottom: 10rem
 }
 
-#about {
-
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-
-}
-
-#experience {
-
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-#experience h1 {
-
-  padding-bottom: 2rem;
-  color: #41E6CA;
-}
-
 #contact {
 
   padding-top: 10rem;
@@ -489,6 +470,58 @@ ul.timeline>li:before {
   margin-left: 30px;
 }
 
+.project-preview {
+
+  border-radius: 15px;
+}
+
+.view-code {
+
+  text-decoration: none;
+}
+
+#Experience {
+
+  padding-top: 5rem;
+  padding-bottom: 9rem;
+}
+
+.carousel-indicators {
+
+  top: 350px;
+}
+
+#certificates {
+  margin-top: 5rem;
+  padding-top: 5rem;
+
+}
+
+#certificates-card {
+
+  background-color: #2D3541;
+  padding-bottom: 6rem;
+  padding-top: 5rem;
+}
+
+#about-card {
+
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+#Project {
+
+  padding-top: 11em;
+  padding-bottom: 7em;
+}
+
+#certificates {
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 /* mobile responsive  */
 @media(min-width :280px) and (max-width : 545px) {
 
@@ -522,6 +555,11 @@ ul.timeline>li:before {
 
     margin-left: 0px;
   }
+
+  .align-self-center {
+
+    text-align: center;
+  }
 }
 
 /* mobile responsive  Relative */
@@ -554,5 +592,10 @@ ul.timeline>li:before {
   #row-tool {
 
     margin-left: 0px;
+  }
+
+  .align-self-center {
+
+    text-align: center;
   }
 }
