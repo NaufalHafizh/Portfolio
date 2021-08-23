@@ -522,6 +522,16 @@ ul.timeline>li:before {
   padding-bottom: 5rem;
 }
 
+.color-certificates {
+
+  color: #41E6CA;
+}
+
+#Project h2 {
+
+  color: #41E6CA;
+}
+
 /* mobile responsive  */
 @media(min-width :280px) and (max-width : 545px) {
 
