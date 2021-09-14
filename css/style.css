@@ -13,7 +13,7 @@ html {
 
 #skills h2 {
   margin-bottom: 2rem;
-  font-weight: 700;
+  font-weight: 650;
   color: #41E6CA;
 }
 
@@ -490,11 +490,13 @@ html {
 .color-certificates {
 
   color: #41E6CA;
+  font-weight: 650;
 }
 
 #Project h2 {
 
   color: #41E6CA;
+  font-weight: 650;
 }
 
 /* mobile responsive  */
