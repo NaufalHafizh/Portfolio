@@ -459,11 +459,51 @@ html {
 .project-preview {
 
   border-radius: 15px;
+  display: block;
 }
 
 .view-code {
 
   text-decoration: none;
+}
+
+.container-project{
+
+  position: relative;
+  width: 50%;
+}
+
+.overlay-project{
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  border-radius: 15px;
+  transition: .5s ease;
+  background-color: #41E6CA;
+}
+
+.container-project:hover .overlay-project{
+
+  opacity: 1;
+}
+
+.text-project{
+
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #Experience {
