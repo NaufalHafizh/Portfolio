@@ -462,7 +462,7 @@ html {
   display: block;
   width: 100%;
   height: 300px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .view-code {
@@ -569,6 +569,12 @@ html {
 /* mobile responsive  */
 @media(min-width :280px) and (max-width : 545px) {
 
+	body{
+
+		width: 100%;
+    height: auto;
+	}
+
   #skills {
 
     text-align: center;
@@ -580,7 +586,7 @@ html {
   .skill4,
   .skill5,
   .skill6,
-  .skill7,
+  .skill8,
   .tool1,
   .tool2,
   .tool3,
@@ -615,7 +621,7 @@ html {
   .skill4,
   .skill5,
   .skill6,
-  .skill7,
+	.skill8,
   .tool1,
   .tool2,
   .tool3,
